@@ -17,10 +17,10 @@ namespace LineComprasionProblem
             this.x2 = x2;
             this.y2 = y2;   
         }
-        public void Calculate()
+        public double Calculate()
         {
             double cal = Math.Sqrt(Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2));
-            Console.WriteLine("Length of the line is : " + cal);
+            return cal;
         }
     }
 }
