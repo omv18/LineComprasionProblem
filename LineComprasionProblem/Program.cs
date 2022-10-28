@@ -21,6 +21,21 @@
             {
                 Console.WriteLine("Two lines are Not equal");
             }
+            //UC3
+            int val = firstLine.CompareTo(secondLine);
+            Console.WriteLine(val + "  " + firstLine +"  "+secondLine);
+            if (val==0)
+            {
+                Console.WriteLine("line one is Equal");
+            }
+            if(val == 1)
+            {
+                Console.WriteLine("Line one is Greater");
+            }
+            else
+            {
+                Console.WriteLine("Line one is Smaller");
+            }
         }
     }
 }
